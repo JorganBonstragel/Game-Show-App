@@ -102,7 +102,7 @@ button:disabled{
 .show {
   color: #000;
   background-color: #76CE82;
-
+  transition: 500ms;
 }
 
 /* Keyboard */
@@ -140,6 +140,7 @@ button:disabled{
   left: 0;
   right: 0;
   border-radius: 5px;
+  
 }
 
 .title {
