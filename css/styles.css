@@ -44,6 +44,7 @@ h2 {
 
 button {
   margin: 6px;
+  cursor: pointer;
   border: 1px solid transparent;
   padding: .5rem 1rem;
   color: var(--color-keys);
@@ -53,6 +54,12 @@ button {
   -webkit-transition: var(--transition);
   -o-transition: var(--transition);
   transition: var(--transition);
+}
+
+button:disabled{
+  background-color: darkgrey;
+  cursor: default;
+  transition: background-color 500ms;
 }
 
 .main-container {
@@ -95,6 +102,7 @@ button {
 .show {
   color: #000;
   background-color: #76CE82;
+
 }
 
 /* Keyboard */
